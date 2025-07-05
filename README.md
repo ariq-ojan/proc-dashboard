@@ -11,6 +11,13 @@ This project showcases a full-cycle data analytics & BI workflow using past and 
 - Excel for general data preprocessing
 - GitHub for documentation
 
+  <div align="center">
+  <img src="https://github.com/ariq-ojan/proc-dashboard/blob/main/1.png" width="1000">
+
+  <div align="center">
+  <img src="https://github.com/ariq-ojan/proc-dashboard/blob/main/2.png" width="1000">
+</div>
+
 ## 🧠 Business Context
 A more bare-bones version of this dashboard was originally developed by myself as a procurement project manager for a biweekly stakeholder meeting. It began as a side project to streamline discussions by enabling quick, interactive access to project-specific, supplier-specific, and time-based data—ultimately cutting meeting times in half by allowing decision-makers to grasp key insights at a glance.
 
