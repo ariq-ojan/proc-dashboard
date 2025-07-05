@@ -8,6 +8,7 @@ This project showcases a full-cycle data analytics & BI workflow using past and 
 📊 **Tools Used:** 
 - SQL (MySQL)
 - Tableau Public
+- Excel for general data preprocessing
 - GitHub for documentation
 
 ## 🧠 Business Context
@@ -46,5 +47,46 @@ Data was manually collected weekly from the Maintenance/ERP Software used, AMOS.
 | `sql/`          | Table schema + example SQL queries           |
 | `screenshots/`  | Visuals from the Tableau dashboard           |
 | `README.md`     | Project documentation (you're reading it)    |
+
+## ⚠️ Limitations and Future Improvements
+
+The dashboard was built as a lightweight decision-support tool specifically for the procurement team. It has very limited usability due to the data that was available to access. There are several areas where further improvements and integrations could expand its value:
+
+**1. ⚙️ Integration with Engineering & Production Planning**
+
+Currently, the dashboard focuses only on executed orders. If authorized, demands from the production and engineering team can also be collected straight from AMOS. This would provide visibility into active or upcoming demands, which would enable:
+   -Real-time tracking of procurement coverage and fulfillment gaps
+   -Identification of unfilfilled or overdue material requests
+   -Demand trend analysis, allowing the procurement team to anticipate future needs based on seasonality or recurring patterns.
+   
+**2. 📊 Supplier Performance Tracking**
+
+SPR (Supplier Performance Reviews) which includes supplier response rate, accuracy, consistency, QC, etc. are not included in this dashboard. Linking SPR data would allow the team to:
+- Highlight top-performing or at-risk suppliers
+- Identify suppliers with expired or obsolete performance reviews
+- Flag newer or unauthorized suppliers for furher vetting.
   
+**3. 💰 Finance Integration**
+
+Finance was the greatest bottleneck in the procurement operations as both departments have a really hard time communicating and showing urgency. If invoices can be systematically recorded, and budget/target spending can be shared with our team, it would grant more visibility of:
+
+- Outstanding payments
+- Budget vs Actual spend
+- Cost savings
+- Incoming and paid invoices
+
+**4. 🚚 Logistics & Procurement Cycle Tracking**
+
+There is no current visibility into shipment movement or detailed procurement stage tracking. With more data from the logistics/supply chain team, future enhancements could include:
+
+- Shipment status (in transit, at freight forwarder, customs clearance)
+- Delivery terms and vendor lead time breakdowns
+- A more granular view of procurement cycle stages: request, PO issuance, confirmation, shipment, GRN, invoicing, payment
+  
+**5. 📦 Warehouse Integration (Advanced)**
+
+Integration with warehouse modules and inventory systems could unlock further insights like:
+- Stock availability and reorder levels
+- Purchase triggers based on historical demand
+- Items failed in receiving inspection  
 
